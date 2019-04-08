@@ -1,6 +1,6 @@
 import SignIn from './pages/login';
-import GitsHome from './pages/gits_page';
-import ListGits from './pages/list_gits';
+import GitsHome from './pages/gist-page';
+import ListGits from './pages/list-gist';
 
 const env = require('dotenv').config();
 const username = process.env.GIST_USERNAME;
